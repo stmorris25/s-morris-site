@@ -1,26 +1,26 @@
 html {
   background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-  url(../img/wooden-floor.png) no-repeat center center fixed;
+  url(../img/Firefighter_Symbol_2.jpg) no-repeat center center fixed;
   background-size: 100% auto;
   background-repeat: repeat;
 }
 
-body {
-  font-family: Helvetica, serif;
+body,h1 {
+  font-family: Serif, Helvetica, Courier ;
 }
 
 h1 {
   text-align: center;
   margin-top: 5%;
-  color: #FFF;
+  color: #AAA;
 }
 
 img {
   display: block;
   margin: 0 auto;
   margin-top: 3%;
-  width: 400px;
-  height: 400px;
+  width: 354px;
+  height: 236px;
 }
 
 .top-p {
@@ -29,7 +29,7 @@ img {
   margin-left: 20%;
   margin-right: 20%;
   line-height: 2em;
-  color: #FFF;
+  color: #AAA;
 }
 
 .bot-p {
@@ -38,7 +38,16 @@ img {
   margin-left: 20%;
   margin-right: 20%;
   line-height: 2em;
-  color: #FFF;
+  color: #AAA;
+}
+
+.saying-p {
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 2em;
+  color: #AAA;
 }
 
 .skills-list {
@@ -49,7 +58,8 @@ img {
 }
 
 .skills-list li {
-  display: inline-block;
+  <!- display: inline-block; ->
+  display: list-item
   text-align: center;
   padding: 10px;
   font-weight: bold;
