@@ -41,15 +41,6 @@ img {
   color: #AAA;
 }
 
-.saying-p {
-  text-align: center;
-  margin-top: 3%;
-  margin-left: 20%;
-  margin-right: 20%;
-  line-height: 2em;
-  color: #AAA;
-}
-
 .skills-list {
   color: #FFF;
   list-style: none;
@@ -58,9 +49,27 @@ img {
 }
 
 .skills-list li {
-  <!- display: inline-block; ->
   display: list-item
   text-align: center;
   padding: 10px;
   font-weight: bold;
+}
+
+ul {
+  width: 570px;
+  padding: 15px;
+  margin: 0px auto 0px auto;
+  border-top: 2px solid #000;
+  border-bottom: 1px solid #000;
+  border-color: #FFF;
+  text-align: center;
+}
+
+.saying-p {
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 2em;
+  color: #AAA;
 }
