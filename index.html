@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>Sean Morris</title>
-	<link href="css/styles.css" type="text/css" rel="stylesheet" />
     <meta name="title" content="Engineer"/>
     <meta name="author" content="Sean Morris"/>
     <meta name="description" content="Portfolio site."/>
@@ -12,13 +11,35 @@
     <meta name="twitter:url" content="http://stmorris25.github.io/s-morris-site/"/>
     <meta name="twitter:description" content="About Me"/>
     <meta name="twitter:image" content="http://stmorris25.github.io/s-morris-site/me.jpg"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+	<link href="css/styles.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="body-container">
+	  <div class="about" id="about">
       <h1>About Sean Morris</h1>
       <img src="img/me.jpg" alt="Sean's Picture" title="Sean Morris" />
       <p class="top-p">My name is Sean Morris and I am a Systems Engineering Architect. I have been working full-time over 17 years in various Mechanical Engineering and Engineering IT roles. In addition to that, I am a volunteer fireman, married to my beautiful wife of 8 years, and a father of three crazy young boys. My major is in Computer Science and Engineering Technology, I attend University of Toledo part-time but I am hoping to graduate Fall 2016 or Spring 2017.
-      Skills I am proficient in: </p>
+	  Skills I am proficient in: </p>
       <ul class="skills-list">
         <li><a href="http://www.plm.automation.siemens.com/en_us/products/teamcenter/index.shtml">PLM (Teamcenter)</a></li>
         <li><a href="http://www.3ds.com/products-services/catia/">CAD (Catia, NX, ProE)</a></li>
@@ -27,14 +48,10 @@
       <p class="bot-p">Some other hobbies I have are exercising: biking, running, weight training; basketball (playing and watching), traveling, and trying new food.</p>
 	  <p class="saying-p">Whoever diligently seeks good seeks favor, but evil comes to him who searches for it. -Proverbs 11:27</p>
     </div>
-    <div class="contact">
-      <div class="contact-right">
-        <iframe class="map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=North%20Engineering%2C%20University%20of%20Toledo%2C%20Toledo%20Ohio&key=AIzaSyBzj4vvqZxCw2VCmogi0xlP-y5TPJD8Mm0"></iframe>
-      </div>
-      <div class="contact-left">
+	<div class="contact" id="contact">
         <div id="form-main">
           <div id="form-div">
-            <form class="contact-form" id="form">
+            <form class="form" id="form1">
               <p class="name">
                 <input name="name" type="text" class="contact-input" placeholder="Name" id="name" />
               </p>
@@ -46,11 +63,11 @@
               </p>
               <div class="submit">
                 <input type="submit" value="SEND" id="button-blue"/>
+                <div class="ease"></div>
               </div>
             </form>
           </div>
         </div>
-      </div>
     </div>
   <body>
 </html>
