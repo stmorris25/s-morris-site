@@ -25,13 +25,42 @@ body{
   margin-bottom: 10%;
 }
 
+.btn {
+  margin-top: 5%;
+}
+
+/*.toggle_demo {
+.toggle_skills {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  height: 300px;
+  width: auto;
+  background-color: #fff;
+  clear: both;
+} */
+
+.toggle_skills {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+
+} 
+/*
+.skills{
+  background-color: #0D2B21;
+  width: 200px;
+  height: 100px;
+}
+*/
 /*
 .contact-left {
   float: left;
   margin-left: 20%;
   margin-bottom: 10%;
 }
-
 .contact-right {
   float: right;
   margin-right: 10%;
