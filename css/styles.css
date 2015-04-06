@@ -85,6 +85,10 @@ body{
     height: auto;
   }
 
+  .about {
+	font-family: 'Oswald', serif;
+  }
+  
   .top-p {
     text-align: center;
     margin-top: 10%;
@@ -93,6 +97,7 @@ body{
     font-size: .75em;
     line-height: 1em;
     color: #AAA;
+	font-family: 'Indie Flower', cursive;
   }
 
   .bot-p {
@@ -103,6 +108,7 @@ body{
     font-size: .75em;
     line-height: 1em;
     color: #AAA;
+	font-family: 'Indie Flower', cursive;
   }
 
   .skills-list {
@@ -255,6 +261,10 @@ body{
     width: 100px;
     height: auto;
   }
+  
+  .about {
+	font-family: 'Oswald', serif;
+  }
 
   .top-p {
     text-align: center;
@@ -264,6 +274,7 @@ body{
     font-size: 1em;
     line-height: 1.5em;
     color: #AAA;
+	font-family: 'Indie Flower', cursive;
   }
 
   .bot-p {
@@ -274,6 +285,7 @@ body{
     font-size: 1em;
     line-height: 1.5em;
     color: #AAA;
+	font-family: 'Indie Flower', cursive;
   }
 
   .skills-list {
@@ -439,6 +451,10 @@ body{
     width: 200px;
     height: auto;
   }
+  
+  .about {
+	font-family: 'Oswald', serif;
+  }
 
   .top-p {
     text-align: center;
@@ -448,6 +464,7 @@ body{
     font-size: 1em;
     line-height: 1.5em;
     color: #AAA;
+	font-family: 'Indie Flower', cursive;
   }
 
   .bot-p {
@@ -458,6 +475,7 @@ body{
     font-size: 1em;
     line-height: 1.5em;
     color: #AAA;
+	font-family: 'Indie Flower', cursive;
   }
 
   .skills-list {
@@ -622,6 +640,10 @@ body{
     width: 354px;
     height: 236px;
   }
+  
+  .about {
+	font-family: 'Oswald', serif;
+  }
 
   .top-p {
     text-align: center;
@@ -631,6 +653,7 @@ body{
     font-size: 1.25em;
     line-height: 1.5em;
     color: #AAA;
+	font-family: 'Indie Flower', cursive;
   }
 
   .bot-p {
@@ -641,6 +664,7 @@ body{
     font-size: 1.25em;
     line-height: 1.5em;
     color: #AAA;
+	font-family: 'Indie Flower', cursive;
   }
 
   .skills-list {
