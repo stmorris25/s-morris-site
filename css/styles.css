@@ -797,12 +797,16 @@ body{
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px)
 {
-  img {
+ img {
     display: block;
     margin: 0 auto;
     margin-top: 3%;
     width: 354px;
     height: 236px;
+  }
+  
+  .about {
+	font-family: 'Oswald', serif;
   }
 
   .top-p {
@@ -813,6 +817,7 @@ body{
     font-size: 1.25em;
     line-height: 1.5em;
     color: #AAA;
+	font-family: 'Indie Flower', cursive;
   }
 
   .bot-p {
@@ -823,6 +828,7 @@ body{
     font-size: 1.25em;
     line-height: 1.5em;
     color: #AAA;
+	font-family: 'Indie Flower', cursive;
   }
 
   .skills-list {
