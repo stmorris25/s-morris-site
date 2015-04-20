@@ -1,6 +1,5 @@
 html {
   background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-  /* url(../img/Firefighter_Symbol_2.jpg) no-repeat center fixed; */
   url(../img/black_background_wood-t3.jpg) repeat center center fixed !important;
   background-size: 100% auto !important;
   background-repeat: repeat !important;
@@ -29,43 +28,13 @@ body{
   margin-top: 5%;
 }
 
-/*.toggle_demo {
 .toggle_skills {
   display: block;
   position: relative;
   margin: 0 auto;
   text-align: center;
-  height: 300px;
-  width: auto;
-  background-color: #fff;
-  clear: both;
-} */
-
-.toggle_skills {
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  text-align: center;
-
 } 
-/*
-.skills{
-  background-color: #0D2B21;
-  width: 200px;
-  height: 100px;
-}
-*/
-/*
-.contact-left {
-  float: left;
-  margin-left: 20%;
-  margin-bottom: 10%;
-}
-.contact-right {
-  float: right;
-  margin-right: 10%;
-  margin-bottom: 10%;
-} */
+
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px)
@@ -127,7 +96,6 @@ body{
   }
   
   ul {
-    /* width: 570px; */
     padding: 15px;
     margin: 0px auto 0px auto;
     border-top: 2px solid #000;
@@ -151,7 +119,6 @@ body{
   
   #form-main{
     width:100%;
-    /* float:left; */ 
     padding-top:0px;
   }
 
@@ -304,7 +271,6 @@ body{
   }
   
   ul {
-    /* width: 570px; */
     padding: 15px;
     margin: 0px auto 0px auto;
     border-top: 2px solid #000;
@@ -432,11 +398,10 @@ body{
     background-color:white;
   }
 }
-
+  
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px)
 {
-
   h1 {
     text-align: center;
     font-size: 1.5em;
@@ -495,7 +460,6 @@ body{
   }
 
   ul {
-    /* width: 570px; */
     padding: 15px;
     margin: 0px auto 0px auto;
     border-top: 2px solid #000;
@@ -633,6 +597,13 @@ body{
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px)
 {
+  h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5%;
+    color: #AAA;
+  }
+  
   img {
     display: block;
     margin: 0 auto;
@@ -821,7 +792,14 @@ body{
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px)
 {
- img {
+  h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5%;
+    color: #AAA;
+  }
+  
+  img {
     display: block;
     margin: 0 auto;
     margin-top: 3%;
@@ -867,7 +845,6 @@ body{
 	text-align: center;
     padding: 10px;
     font-weight: bold;
-	/* font-size: 1.5em; */
 	font-size: 24px;
   }
   
